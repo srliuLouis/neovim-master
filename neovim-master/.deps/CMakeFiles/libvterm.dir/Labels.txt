@@ -1,0 +1,13 @@
+# Target labels
+ libvterm
+# Source files and their labels
+/Users/shi-rongliu/tool/neovim-master/.deps/CMakeFiles/libvterm
+/Users/shi-rongliu/tool/neovim-master/.deps/CMakeFiles/libvterm.rule
+/Users/shi-rongliu/tool/neovim-master/.deps/CMakeFiles/libvterm-complete.rule
+/Users/shi-rongliu/tool/neovim-master/.deps/build/src/libvterm-stamp/libvterm-install.rule
+/Users/shi-rongliu/tool/neovim-master/.deps/build/src/libvterm-stamp/libvterm-mkdir.rule
+/Users/shi-rongliu/tool/neovim-master/.deps/build/src/libvterm-stamp/libvterm-download.rule
+/Users/shi-rongliu/tool/neovim-master/.deps/build/src/libvterm-stamp/libvterm-update.rule
+/Users/shi-rongliu/tool/neovim-master/.deps/build/src/libvterm-stamp/libvterm-patch.rule
+/Users/shi-rongliu/tool/neovim-master/.deps/build/src/libvterm-stamp/libvterm-configure.rule
+/Users/shi-rongliu/tool/neovim-master/.deps/build/src/libvterm-stamp/libvterm-build.rule

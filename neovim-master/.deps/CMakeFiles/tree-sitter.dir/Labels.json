@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/shi-rongliu/tool/neovim-master/.deps/CMakeFiles/tree-sitter"
+		},
+		{
+			"file" : "/Users/shi-rongliu/tool/neovim-master/.deps/CMakeFiles/tree-sitter.rule"
+		},
+		{
+			"file" : "/Users/shi-rongliu/tool/neovim-master/.deps/CMakeFiles/tree-sitter-complete.rule"
+		},
+		{
+			"file" : "/Users/shi-rongliu/tool/neovim-master/.deps/build/src/tree-sitter-stamp/tree-sitter-install.rule"
+		},
+		{
+			"file" : "/Users/shi-rongliu/tool/neovim-master/.deps/build/src/tree-sitter-stamp/tree-sitter-mkdir.rule"
+		},
+		{
+			"file" : "/Users/shi-rongliu/tool/neovim-master/.deps/build/src/tree-sitter-stamp/tree-sitter-download.rule"
+		},
+		{
+			"file" : "/Users/shi-rongliu/tool/neovim-master/.deps/build/src/tree-sitter-stamp/tree-sitter-update.rule"
+		},
+		{
+			"file" : "/Users/shi-rongliu/tool/neovim-master/.deps/build/src/tree-sitter-stamp/tree-sitter-patch.rule"
+		},
+		{
+			"file" : "/Users/shi-rongliu/tool/neovim-master/.deps/build/src/tree-sitter-stamp/tree-sitter-configure.rule"
+		},
+		{
+			"file" : "/Users/shi-rongliu/tool/neovim-master/.deps/build/src/tree-sitter-stamp/tree-sitter-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"tree-sitter"
+		],
+		"name" : "tree-sitter"
+	}
+}

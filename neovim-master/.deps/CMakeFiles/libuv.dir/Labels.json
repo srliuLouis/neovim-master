@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/shi-rongliu/tool/neovim-master/.deps/CMakeFiles/libuv"
+		},
+		{
+			"file" : "/Users/shi-rongliu/tool/neovim-master/.deps/CMakeFiles/libuv.rule"
+		},
+		{
+			"file" : "/Users/shi-rongliu/tool/neovim-master/.deps/CMakeFiles/libuv-complete.rule"
+		},
+		{
+			"file" : "/Users/shi-rongliu/tool/neovim-master/.deps/build/src/libuv-stamp/libuv-install.rule"
+		},
+		{
+			"file" : "/Users/shi-rongliu/tool/neovim-master/.deps/build/src/libuv-stamp/libuv-mkdir.rule"
+		},
+		{
+			"file" : "/Users/shi-rongliu/tool/neovim-master/.deps/build/src/libuv-stamp/libuv-download.rule"
+		},
+		{
+			"file" : "/Users/shi-rongliu/tool/neovim-master/.deps/build/src/libuv-stamp/libuv-update.rule"
+		},
+		{
+			"file" : "/Users/shi-rongliu/tool/neovim-master/.deps/build/src/libuv-stamp/libuv-patch.rule"
+		},
+		{
+			"file" : "/Users/shi-rongliu/tool/neovim-master/.deps/build/src/libuv-stamp/libuv-configure.rule"
+		},
+		{
+			"file" : "/Users/shi-rongliu/tool/neovim-master/.deps/build/src/libuv-stamp/libuv-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"libuv"
+		],
+		"name" : "libuv"
+	}
+}

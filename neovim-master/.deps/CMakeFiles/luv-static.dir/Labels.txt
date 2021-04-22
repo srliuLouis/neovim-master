@@ -1,0 +1,13 @@
+# Target labels
+ luv-static
+# Source files and their labels
+/Users/shi-rongliu/tool/neovim-master/.deps/CMakeFiles/luv-static
+/Users/shi-rongliu/tool/neovim-master/.deps/CMakeFiles/luv-static.rule
+/Users/shi-rongliu/tool/neovim-master/.deps/CMakeFiles/luv-static-complete.rule
+/Users/shi-rongliu/tool/neovim-master/.deps/build/src/luv-static-stamp/luv-static-install.rule
+/Users/shi-rongliu/tool/neovim-master/.deps/build/src/luv-static-stamp/luv-static-mkdir.rule
+/Users/shi-rongliu/tool/neovim-master/.deps/build/src/luv-static-stamp/luv-static-download.rule
+/Users/shi-rongliu/tool/neovim-master/.deps/build/src/luv-static-stamp/luv-static-update.rule
+/Users/shi-rongliu/tool/neovim-master/.deps/build/src/luv-static-stamp/luv-static-patch.rule
+/Users/shi-rongliu/tool/neovim-master/.deps/build/src/luv-static-stamp/luv-static-configure.rule
+/Users/shi-rongliu/tool/neovim-master/.deps/build/src/luv-static-stamp/luv-static-build.rule

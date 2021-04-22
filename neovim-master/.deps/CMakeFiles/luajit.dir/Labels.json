@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/shi-rongliu/tool/neovim-master/.deps/CMakeFiles/luajit"
+		},
+		{
+			"file" : "/Users/shi-rongliu/tool/neovim-master/.deps/CMakeFiles/luajit.rule"
+		},
+		{
+			"file" : "/Users/shi-rongliu/tool/neovim-master/.deps/CMakeFiles/luajit-complete.rule"
+		},
+		{
+			"file" : "/Users/shi-rongliu/tool/neovim-master/.deps/build/src/luajit-stamp/luajit-install.rule"
+		},
+		{
+			"file" : "/Users/shi-rongliu/tool/neovim-master/.deps/build/src/luajit-stamp/luajit-mkdir.rule"
+		},
+		{
+			"file" : "/Users/shi-rongliu/tool/neovim-master/.deps/build/src/luajit-stamp/luajit-download.rule"
+		},
+		{
+			"file" : "/Users/shi-rongliu/tool/neovim-master/.deps/build/src/luajit-stamp/luajit-update.rule"
+		},
+		{
+			"file" : "/Users/shi-rongliu/tool/neovim-master/.deps/build/src/luajit-stamp/luajit-patch.rule"
+		},
+		{
+			"file" : "/Users/shi-rongliu/tool/neovim-master/.deps/build/src/luajit-stamp/luajit-configure.rule"
+		},
+		{
+			"file" : "/Users/shi-rongliu/tool/neovim-master/.deps/build/src/luajit-stamp/luajit-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"luajit"
+		],
+		"name" : "luajit"
+	}
+}

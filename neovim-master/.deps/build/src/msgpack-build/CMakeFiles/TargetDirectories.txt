@@ -1,0 +1,11 @@
+/Users/shi-rongliu/tool/neovim-master/.deps/build/src/msgpack-build/CMakeFiles/install/local.dir
+/Users/shi-rongliu/tool/neovim-master/.deps/build/src/msgpack-build/CMakeFiles/install/strip.dir
+/Users/shi-rongliu/tool/neovim-master/.deps/build/src/msgpack-build/CMakeFiles/install.dir
+/Users/shi-rongliu/tool/neovim-master/.deps/build/src/msgpack-build/CMakeFiles/edit_cache.dir
+/Users/shi-rongliu/tool/neovim-master/.deps/build/src/msgpack-build/CMakeFiles/list_install_components.dir
+/Users/shi-rongliu/tool/neovim-master/.deps/build/src/msgpack-build/CMakeFiles/msgpackc.dir
+/Users/shi-rongliu/tool/neovim-master/.deps/build/src/msgpack-build/CMakeFiles/doxygen.dir
+/Users/shi-rongliu/tool/neovim-master/.deps/build/src/msgpack-build/CMakeFiles/rebuild_cache.dir
+/Users/shi-rongliu/tool/neovim-master/.deps/build/src/msgpack-build/CMakeFiles/doxygen_c.dir
+/Users/shi-rongliu/tool/neovim-master/.deps/build/src/msgpack-build/CMakeFiles/msgpackc-static.dir
+/Users/shi-rongliu/tool/neovim-master/.deps/build/src/msgpack-build/CMakeFiles/doxygen_cpp.dir

@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/cc -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -bundle -Wl,-headerpad_max_install_names -o c.so CMakeFiles/parser.dir/src/parser.c.o 

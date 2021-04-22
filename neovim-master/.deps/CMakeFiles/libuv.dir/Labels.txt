@@ -1,0 +1,13 @@
+# Target labels
+ libuv
+# Source files and their labels
+/Users/shi-rongliu/tool/neovim-master/.deps/CMakeFiles/libuv
+/Users/shi-rongliu/tool/neovim-master/.deps/CMakeFiles/libuv.rule
+/Users/shi-rongliu/tool/neovim-master/.deps/CMakeFiles/libuv-complete.rule
+/Users/shi-rongliu/tool/neovim-master/.deps/build/src/libuv-stamp/libuv-install.rule
+/Users/shi-rongliu/tool/neovim-master/.deps/build/src/libuv-stamp/libuv-mkdir.rule
+/Users/shi-rongliu/tool/neovim-master/.deps/build/src/libuv-stamp/libuv-download.rule
+/Users/shi-rongliu/tool/neovim-master/.deps/build/src/libuv-stamp/libuv-update.rule
+/Users/shi-rongliu/tool/neovim-master/.deps/build/src/libuv-stamp/libuv-patch.rule
+/Users/shi-rongliu/tool/neovim-master/.deps/build/src/libuv-stamp/libuv-configure.rule
+/Users/shi-rongliu/tool/neovim-master/.deps/build/src/libuv-stamp/libuv-build.rule

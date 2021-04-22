@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/shi-rongliu/tool/neovim-master/.deps/CMakeFiles/libtermkey"
+		},
+		{
+			"file" : "/Users/shi-rongliu/tool/neovim-master/.deps/CMakeFiles/libtermkey.rule"
+		},
+		{
+			"file" : "/Users/shi-rongliu/tool/neovim-master/.deps/CMakeFiles/libtermkey-complete.rule"
+		},
+		{
+			"file" : "/Users/shi-rongliu/tool/neovim-master/.deps/build/src/libtermkey-stamp/libtermkey-install.rule"
+		},
+		{
+			"file" : "/Users/shi-rongliu/tool/neovim-master/.deps/build/src/libtermkey-stamp/libtermkey-mkdir.rule"
+		},
+		{
+			"file" : "/Users/shi-rongliu/tool/neovim-master/.deps/build/src/libtermkey-stamp/libtermkey-download.rule"
+		},
+		{
+			"file" : "/Users/shi-rongliu/tool/neovim-master/.deps/build/src/libtermkey-stamp/libtermkey-update.rule"
+		},
+		{
+			"file" : "/Users/shi-rongliu/tool/neovim-master/.deps/build/src/libtermkey-stamp/libtermkey-patch.rule"
+		},
+		{
+			"file" : "/Users/shi-rongliu/tool/neovim-master/.deps/build/src/libtermkey-stamp/libtermkey-configure.rule"
+		},
+		{
+			"file" : "/Users/shi-rongliu/tool/neovim-master/.deps/build/src/libtermkey-stamp/libtermkey-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"libtermkey"
+		],
+		"name" : "libtermkey"
+	}
+}

@@ -1,0 +1,6 @@
+/Users/shi-rongliu/tool/neovim-master/.deps/usr/lib/libluv.a
+/Users/shi-rongliu/tool/neovim-master/.deps/usr/lib/pkgconfig/libluv.pc
+/Users/shi-rongliu/tool/neovim-master/.deps/usr/include/luv/luv.h
+/Users/shi-rongliu/tool/neovim-master/.deps/usr/include/luv/util.h
+/Users/shi-rongliu/tool/neovim-master/.deps/usr/include/luv/lhandle.h
+/Users/shi-rongliu/tool/neovim-master/.deps/usr/include/luv/lreq.h

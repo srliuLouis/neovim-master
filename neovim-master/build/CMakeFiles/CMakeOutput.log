@@ -1,0 +1,853 @@
+The system is: Darwin - 20.3.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is AppleClang, found in "/Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/3.19.6/CompilerIdC/CMakeCCompilerId.o"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_68ee4/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_68ee4.dir/build.make CMakeFiles/cmTC_68ee4.dir/build
+Building C object CMakeFiles/cmTC_68ee4.dir/CMakeCCompilerABI.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk   -v -Wl,-v -o CMakeFiles/cmTC_68ee4.dir/CMakeCCompilerABI.c.o -c /usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CMakeCCompilerABI.c
+Apple clang version 12.0.0 (clang-1200.0.32.29)
+Target: x86_64-apple-darwin20.3.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx11.0.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mframe-pointer=all -fno-strict-return -masm-verbose -munwind-tables -target-sdk-version=11.1 -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -target-linker-version 609.8 -v -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -fdebug-compilation-dir /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fobjc-runtime=macosx-11.0.0 -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_68ee4.dir/CMakeCCompilerABI.c.o -x c /usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CMakeCCompilerABI.c
+clang -cc1 version 12.0.0 (clang-1200.0.32.29) default target x86_64-apple-darwin20.3.0
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/local/include"
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include
+ /Library/Developer/CommandLineTools/usr/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking C executable cmTC_68ee4
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68ee4.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_68ee4.dir/CMakeCCompilerABI.c.o -o cmTC_68ee4 
+Apple clang version 12.0.0 (clang-1200.0.32.29)
+Target: x86_64-apple-darwin20.3.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 11.0.0 11.1 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o cmTC_68ee4 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_68ee4.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-609.8
+BUILD 15:07:46 Dec 18 2020
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/lib
+Framework search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include]
+    add: [/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include]
+    add: [/Library/Developer/CommandLineTools/usr/include]
+  end of search list found
+  collapse include dir [/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include] ==> [/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include]
+  collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include]
+  collapse include dir [/Library/Developer/CommandLineTools/usr/include] ==> [/Library/Developer/CommandLineTools/usr/include]
+  implicit include dirs: [/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include;/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include;/Library/Developer/CommandLineTools/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_68ee4/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_68ee4.dir/build.make CMakeFiles/cmTC_68ee4.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_68ee4.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk   -v -Wl -v -o CMakeFiles/cmTC_68ee4.dir/CMakeCCompilerABI.c.o -c /usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Apple clang version 12.0.0 (clang-1200.0.32.29)]
+  ignore line: [Target: x86_64-apple-darwin20.3.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+  ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx11.0.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mframe-pointer=all -fno-strict-return -masm-verbose -munwind-tables -target-sdk-version=11.1 -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -target-linker-version 609.8 -v -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -fdebug-compilation-dir /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fobjc-runtime=macosx-11.0.0 -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_68ee4.dir/CMakeCCompilerABI.c.o -x c /usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 12.0.0 (clang-1200.0.32.29) default target x86_64-apple-darwin20.3.0]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include]
+  ignore line: [ /Library/Developer/CommandLineTools/usr/include]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: [Linking C executable cmTC_68ee4]
+  ignore line: [/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68ee4.dir/link.txt --verbose=1]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl -search_paths_first -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_68ee4.dir/CMakeCCompilerABI.c.o -o cmTC_68ee4 ]
+  ignore line: [Apple clang version 12.0.0 (clang-1200.0.32.29)]
+  ignore line: [Target: x86_64-apple-darwin20.3.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+  link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 11.0.0 11.1 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o cmTC_68ee4 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_68ee4.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Library/Developer/CommandLineTools/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-platform_version] ==> ignore
+    arg [macos] ==> ignore
+    arg [11.0.0] ==> ignore
+    arg [11.1] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_68ee4] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_68ee4.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/lib]
+  Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/lib]
+  collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/System/Library/Frameworks]
+  implicit libs: []
+  implicit dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/lib]
+  implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/System/Library/Frameworks]
+
+
+Performing C SOURCE FILE Test HAVE_EXECINFO_BACKTRACE succeeded with the following output:
+Change Dir: /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_975fc/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_975fc.dir/build.make CMakeFiles/cmTC_975fc.dir/build
+Building C object CMakeFiles/cmTC_975fc.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -DHAVE_EXECINFO_BACKTRACE  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_975fc.dir/src.c.o -c /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_975fc
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_975fc.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_975fc.dir/src.c.o -o cmTC_975fc 
+
+
+Source file was:
+
+#include <execinfo.h>
+int main(void)
+{
+  void *trace[1];
+  backtrace(trace, 1);
+  return 0;
+}
+
+Performing C SOURCE FILE Test HAVE_BUILTIN_ADD_OVERFLOW succeeded with the following output:
+Change Dir: /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7d020/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_7d020.dir/build.make CMakeFiles/cmTC_7d020.dir/build
+Building C object CMakeFiles/cmTC_7d020.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -DHAVE_BUILTIN_ADD_OVERFLOW  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_7d020.dir/src.c.o -c /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_7d020
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d020.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_7d020.dir/src.c.o -o cmTC_7d020 
+
+
+Source file was:
+
+int main(void)
+{
+  int a = 42;
+  __builtin_add_overflow(a, a, &a);
+  __builtin_sub_overflow(a, a, &a);
+  return 0;
+}
+
+Performing C SOURCE FILE Test HAVE_WIMPLICIT_FALLTHROUGH_FLAG succeeded with the following output:
+Change Dir: /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4a205/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_4a205.dir/build.make CMakeFiles/cmTC_4a205.dir/build
+Building C object CMakeFiles/cmTC_4a205.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -DHAVE_WIMPLICIT_FALLTHROUGH_FLAG  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk   -Wimplicit-fallthrough -o CMakeFiles/cmTC_4a205.dir/src.c.o -c /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_4a205
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a205.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_4a205.dir/src.c.o -o cmTC_4a205 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAS_WVLA_FLAG succeeded with the following output:
+Change Dir: /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2e960/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_2e960.dir/build.make CMakeFiles/cmTC_2e960.dir/build
+Building C object CMakeFiles/cmTC_2e960.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -DHAS_WVLA_FLAG  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk   -Wvla -o CMakeFiles/cmTC_2e960.dir/src.c.o -c /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_2e960
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e960.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_2e960.dir/src.c.o -o cmTC_2e960 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAS_FSTACK_PROTECTOR_STRONG_FLAG succeeded with the following output:
+Change Dir: /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d3f58/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d3f58.dir/build.make CMakeFiles/cmTC_d3f58.dir/build
+Building C object CMakeFiles/cmTC_d3f58.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -DHAS_FSTACK_PROTECTOR_STRONG_FLAG  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk   -fstack-protector-strong -o CMakeFiles/cmTC_d3f58.dir/src.c.o -c /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_d3f58
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d3f58.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_d3f58.dir/src.c.o -o cmTC_d3f58 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAS_FSTACK_PROTECTOR_FLAG succeeded with the following output:
+Change Dir: /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4ec16/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_4ec16.dir/build.make CMakeFiles/cmTC_4ec16.dir/build
+Building C object CMakeFiles/cmTC_4ec16.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -DHAS_FSTACK_PROTECTOR_FLAG  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk   -fstack-protector -o CMakeFiles/cmTC_4ec16.dir/src.c.o -c /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_4ec16
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ec16.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_4ec16.dir/src.c.o -o cmTC_4ec16 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_FNO_COMMON succeeded with the following output:
+Change Dir: /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_eaa16/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_eaa16.dir/build.make CMakeFiles/cmTC_eaa16.dir/build
+Building C object CMakeFiles/cmTC_eaa16.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -DHAVE_FNO_COMMON  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk   -fno-common -o CMakeFiles/cmTC_eaa16.dir/src.c.o -c /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_eaa16
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eaa16.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_eaa16.dir/src.c.o -o cmTC_eaa16 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAS_DIAG_COLOR_FLAG succeeded with the following output:
+Change Dir: /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_27820/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_27820.dir/build.make CMakeFiles/cmTC_27820.dir/build
+Building C object CMakeFiles/cmTC_27820.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -DHAS_DIAG_COLOR_FLAG  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk   -fdiagnostics-color=auto -o CMakeFiles/cmTC_27820.dir/src.c.o -c /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_27820
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_27820.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_27820.dir/src.c.o -o cmTC_27820 
+
+
+Source file was:
+int main(void) { return 0; }
+Determining if the function dlopen exists in the dl passed with the following output:
+Change Dir: /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6d6b1/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_6d6b1.dir/build.make CMakeFiles/cmTC_6d6b1.dir/build
+Building C object CMakeFiles/cmTC_6d6b1.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -DCHECK_FUNCTION_EXISTS=dlopen -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_6d6b1.dir/CheckFunctionExists.c.o -c /usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6d6b1
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6d6b1.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -DCHECK_FUNCTION_EXISTS=dlopen -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_6d6b1.dir/CheckFunctionExists.c.o -o cmTC_6d6b1   -L/Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp/dlfcn.h  -Wl,-rpath,/Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp/dlfcn.h -ldl 
+ld: warning: directory not found for option '-L/Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp/dlfcn.h'
+
+
+
+Performing C SOURCE FILE Test MSGPACK_HAS_FLOAT32 succeeded with the following output:
+Change Dir: /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6c0cf/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_6c0cf.dir/build.make CMakeFiles/cmTC_6c0cf.dir/build
+Building C object CMakeFiles/cmTC_6c0cf.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -DMSGPACK_HAS_FLOAT32 -I/Users/shi-rongliu/tool/neovim-master/.deps/usr/include -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_6c0cf.dir/src.c.o -c /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_6c0cf
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6c0cf.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_6c0cf.dir/src.c.o -o cmTC_6c0cf 
+
+
+Source file was:
+
+#include <msgpack.h>
+
+int
+main(void)
+{
+  return MSGPACK_OBJECT_FLOAT32;
+}
+
+Performing C SOURCE FILE Test UNIBI_HAS_VAR_FROM succeeded with the following output:
+Change Dir: /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4fc88/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_4fc88.dir/build.make CMakeFiles/cmTC_4fc88.dir/build
+Building C object CMakeFiles/cmTC_4fc88.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -DUNIBI_HAS_VAR_FROM -I/Users/shi-rongliu/tool/neovim-master/.deps/usr/include -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_4fc88.dir/src.c.o -c /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_4fc88
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4fc88.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_4fc88.dir/src.c.o -o cmTC_4fc88  /Users/shi-rongliu/tool/neovim-master/.deps/usr/lib/libunibilium.a 
+
+
+Source file was:
+
+  #include <unibilium.h>
+
+  int
+  main(void)
+  {
+    return unibi_num_from_var(unibi_var_from_num(0));
+  }
+  
+Performing C SOURCE FILE Test HAVE_WORKING_LIBINTL succeeded with the following output:
+Change Dir: /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_36d66/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_36d66.dir/build.make CMakeFiles/cmTC_36d66.dir/build
+Building C object CMakeFiles/cmTC_36d66.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -DHAVE_WORKING_LIBINTL -I/usr/local/opt/gettext/include -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_36d66.dir/src.c.o -c /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_36d66
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_36d66.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_36d66.dir/src.c.o -o cmTC_36d66  /usr/local/opt/gettext/lib/libintl.dylib 
+
+
+Source file was:
+
+#include <libintl.h>
+
+int main(int argc, char** argv) {
+  gettext("foo");
+  ngettext("foo", "bar", 1);
+  bindtextdomain("foo", "bar");
+  bind_textdomain_codeset("foo", "bar");
+  textdomain("foo");
+}
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_28c9d/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_28c9d.dir/build.make CMakeFiles/cmTC_28c9d.dir/build
+Building C object CMakeFiles/cmTC_28c9d.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_28c9d.dir/CheckIncludeFile.c.o -c /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_28c9d
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_28c9d.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_28c9d.dir/CheckIncludeFile.c.o -o cmTC_28c9d 
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e9310/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_e9310.dir/build.make CMakeFiles/cmTC_e9310.dir/build
+Building C object CMakeFiles/cmTC_e9310.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_e9310.dir/src.c.o -c /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_e9310
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9310.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_e9310.dir/src.c.o -o cmTC_e9310 
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Performing C SOURCE FILE Test HAS_WSTATIC_IN_INLINE succeeded with the following output:
+Change Dir: /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_56e92/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_56e92.dir/build.make CMakeFiles/cmTC_56e92.dir/build
+Building C object CMakeFiles/cmTC_56e92.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -DHAS_WSTATIC_IN_INLINE  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk   -Wstatic-in-inline -o CMakeFiles/cmTC_56e92.dir/src.c.o -c /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_56e92
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56e92.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_56e92.dir/src.c.o -o cmTC_56e92 
+
+
+Source file was:
+int main(void) { return 0; }
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_733ff/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_733ff.dir/build.make CMakeFiles/cmTC_733ff.dir/build
+Building C object CMakeFiles/cmTC_733ff.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_733ff.dir/CheckIncludeFile.c.o -c /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_733ff
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_733ff.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_733ff.dir/CheckIncludeFile.c.o -o cmTC_733ff 
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b9406/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_b9406.dir/build.make CMakeFiles/cmTC_b9406.dir/build
+Building C object CMakeFiles/cmTC_b9406.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_b9406.dir/CheckIncludeFile.c.o -c /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_b9406
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b9406.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_b9406.dir/CheckIncludeFile.c.o -o cmTC_b9406 
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e42c6/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_e42c6.dir/build.make CMakeFiles/cmTC_e42c6.dir/build
+Building C object CMakeFiles/cmTC_e42c6.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_e42c6.dir/CheckIncludeFile.c.o -c /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_e42c6
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e42c6.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_e42c6.dir/CheckIncludeFile.c.o -o cmTC_e42c6 
+
+
+
+Determining size of int passed with the following output:
+Change Dir: /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ec67f/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_ec67f.dir/build.make CMakeFiles/cmTC_ec67f.dir/build
+Building C object CMakeFiles/cmTC_ec67f.dir/SIZEOF_INT.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_ec67f.dir/SIZEOF_INT.c.o -c /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CheckTypeSize/SIZEOF_INT.c
+Linking C executable cmTC_ec67f
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec67f.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_ec67f.dir/SIZEOF_INT.c.o -o cmTC_ec67f 
+
+
+
+Determining size of long passed with the following output:
+Change Dir: /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7011e/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_7011e.dir/build.make CMakeFiles/cmTC_7011e.dir/build
+Building C object CMakeFiles/cmTC_7011e.dir/SIZEOF_LONG.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_7011e.dir/SIZEOF_LONG.c.o -c /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CheckTypeSize/SIZEOF_LONG.c
+Linking C executable cmTC_7011e
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7011e.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_7011e.dir/SIZEOF_LONG.c.o -o cmTC_7011e 
+
+
+
+Determining size of intmax_t passed with the following output:
+Change Dir: /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_97d28/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_97d28.dir/build.make CMakeFiles/cmTC_97d28.dir/build
+Building C object CMakeFiles/cmTC_97d28.dir/SIZEOF_INTMAX_T.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_97d28.dir/SIZEOF_INTMAX_T.c.o -c /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CheckTypeSize/SIZEOF_INTMAX_T.c
+Linking C executable cmTC_97d28
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_97d28.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_97d28.dir/SIZEOF_INTMAX_T.c.o -o cmTC_97d28 
+
+
+
+Determining size of size_t passed with the following output:
+Change Dir: /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_acab5/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_acab5.dir/build.make CMakeFiles/cmTC_acab5.dir/build
+Building C object CMakeFiles/cmTC_acab5.dir/SIZEOF_SIZE_T.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_acab5.dir/SIZEOF_SIZE_T.c.o -c /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CheckTypeSize/SIZEOF_SIZE_T.c
+Linking C executable cmTC_acab5
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_acab5.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_acab5.dir/SIZEOF_SIZE_T.c.o -o cmTC_acab5 
+
+
+
+Determining size of long long passed with the following output:
+Change Dir: /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4ffa6/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_4ffa6.dir/build.make CMakeFiles/cmTC_4ffa6.dir/build
+Building C object CMakeFiles/cmTC_4ffa6.dir/SIZEOF_LONG_LONG.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_4ffa6.dir/SIZEOF_LONG_LONG.c.o -c /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CheckTypeSize/SIZEOF_LONG_LONG.c
+Linking C executable cmTC_4ffa6
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ffa6.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_4ffa6.dir/SIZEOF_LONG_LONG.c.o -o cmTC_4ffa6 
+
+
+
+Determining size of void * passed with the following output:
+Change Dir: /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cc2e9/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_cc2e9.dir/build.make CMakeFiles/cmTC_cc2e9.dir/build
+Building C object CMakeFiles/cmTC_cc2e9.dir/SIZEOF_VOID_PTR.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_cc2e9.dir/SIZEOF_VOID_PTR.c.o -c /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CheckTypeSize/SIZEOF_VOID_PTR.c
+Linking C executable cmTC_cc2e9
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc2e9.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_cc2e9.dir/SIZEOF_VOID_PTR.c.o -o cmTC_cc2e9 
+
+
+
+Determining if the _NSGetEnviron exist passed with the following output:
+Change Dir: /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a2b06/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a2b06.dir/build.make CMakeFiles/cmTC_a2b06.dir/build
+Building C object CMakeFiles/cmTC_a2b06.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_a2b06.dir/CheckSymbolExists.c.o -c /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_a2b06
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a2b06.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_a2b06.dir/CheckSymbolExists.c.o -o cmTC_a2b06 
+
+
+File /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <crt_externs.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _NSGetEnviron
+  return ((int*)(&_NSGetEnviron))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if files langinfo.h exist passed with the following output:
+Change Dir: /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_418b7/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_418b7.dir/build.make CMakeFiles/cmTC_418b7.dir/build
+Building C object CMakeFiles/cmTC_418b7.dir/HAVE_LANGINFO_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_418b7.dir/HAVE_LANGINFO_H.c.o -c /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CheckIncludeFiles/HAVE_LANGINFO_H.c
+Linking C executable cmTC_418b7
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_418b7.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_418b7.dir/HAVE_LANGINFO_H.c.o -o cmTC_418b7 
+
+
+
+Determining if files locale.h exist passed with the following output:
+Change Dir: /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_fa959/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_fa959.dir/build.make CMakeFiles/cmTC_fa959.dir/build
+Building C object CMakeFiles/cmTC_fa959.dir/HAVE_LOCALE_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_fa959.dir/HAVE_LOCALE_H.c.o -c /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CheckIncludeFiles/HAVE_LOCALE_H.c
+Linking C executable cmTC_fa959
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fa959.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_fa959.dir/HAVE_LOCALE_H.c.o -o cmTC_fa959 
+
+
+
+Determining if files pwd.h exist passed with the following output:
+Change Dir: /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f900e/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_f900e.dir/build.make CMakeFiles/cmTC_f900e.dir/build
+Building C object CMakeFiles/cmTC_f900e.dir/HAVE_PWD_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_f900e.dir/HAVE_PWD_H.c.o -c /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CheckIncludeFiles/HAVE_PWD_H.c
+Linking C executable cmTC_f900e
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f900e.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_f900e.dir/HAVE_PWD_H.c.o -o cmTC_f900e 
+
+
+
+Determining if files strings.h exist passed with the following output:
+Change Dir: /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e4e05/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_e4e05.dir/build.make CMakeFiles/cmTC_e4e05.dir/build
+Building C object CMakeFiles/cmTC_e4e05.dir/HAVE_STRINGS_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_e4e05.dir/HAVE_STRINGS_H.c.o -c /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CheckIncludeFiles/HAVE_STRINGS_H.c
+Linking C executable cmTC_e4e05
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4e05.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_e4e05.dir/HAVE_STRINGS_H.c.o -o cmTC_e4e05 
+
+
+
+Determining if files sys/wait.h exist passed with the following output:
+Change Dir: /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6f0df/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_6f0df.dir/build.make CMakeFiles/cmTC_6f0df.dir/build
+Building C object CMakeFiles/cmTC_6f0df.dir/HAVE_SYS_WAIT_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_6f0df.dir/HAVE_SYS_WAIT_H.c.o -c /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_WAIT_H.c
+Linking C executable cmTC_6f0df
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6f0df.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_6f0df.dir/HAVE_SYS_WAIT_H.c.o -o cmTC_6f0df 
+
+
+
+Determining if files sys/utsname.h exist passed with the following output:
+Change Dir: /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b9033/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_b9033.dir/build.make CMakeFiles/cmTC_b9033.dir/build
+Building C object CMakeFiles/cmTC_b9033.dir/HAVE_SYS_UTSNAME_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_b9033.dir/HAVE_SYS_UTSNAME_H.c.o -c /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_UTSNAME_H.c
+Linking C executable cmTC_b9033
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b9033.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_b9033.dir/HAVE_SYS_UTSNAME_H.c.o -o cmTC_b9033 
+
+
+
+Determining if files termios.h exist passed with the following output:
+Change Dir: /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ebe85/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_ebe85.dir/build.make CMakeFiles/cmTC_ebe85.dir/build
+Building C object CMakeFiles/cmTC_ebe85.dir/HAVE_TERMIOS_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_ebe85.dir/HAVE_TERMIOS_H.c.o -c /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CheckIncludeFiles/HAVE_TERMIOS_H.c
+Linking C executable cmTC_ebe85
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ebe85.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_ebe85.dir/HAVE_TERMIOS_H.c.o -o cmTC_ebe85 
+
+
+
+Determining if files sys/uio.h exist passed with the following output:
+Change Dir: /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4055a/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_4055a.dir/build.make CMakeFiles/cmTC_4055a.dir/build
+Building C object CMakeFiles/cmTC_4055a.dir/HAVE_SYS_UIO_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_4055a.dir/HAVE_SYS_UIO_H.c.o -c /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_UIO_H.c
+Linking C executable cmTC_4055a
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4055a.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_4055a.dir/HAVE_SYS_UIO_H.c.o -o cmTC_4055a 
+
+
+
+Determining if files sys/sdt.h exist passed with the following output:
+Change Dir: /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_62924/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_62924.dir/build.make CMakeFiles/cmTC_62924.dir/build
+Building C object CMakeFiles/cmTC_62924.dir/HAVE_SYS_SDT_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_62924.dir/HAVE_SYS_SDT_H.c.o -c /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_SDT_H.c
+Linking C executable cmTC_62924
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62924.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_62924.dir/HAVE_SYS_SDT_H.c.o -o cmTC_62924 
+
+
+
+Determining if the function fseeko exists passed with the following output:
+Change Dir: /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6ef1a/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_6ef1a.dir/build.make CMakeFiles/cmTC_6ef1a.dir/build
+Building C object CMakeFiles/cmTC_6ef1a.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -DCHECK_FUNCTION_EXISTS=fseeko -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_6ef1a.dir/CheckFunctionExists.c.o -c /usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6ef1a
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6ef1a.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -DCHECK_FUNCTION_EXISTS=fseeko -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_6ef1a.dir/CheckFunctionExists.c.o -o cmTC_6ef1a 
+
+
+
+Determining if the function getpwent exists passed with the following output:
+Change Dir: /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_fe6ad/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_fe6ad.dir/build.make CMakeFiles/cmTC_fe6ad.dir/build
+Building C object CMakeFiles/cmTC_fe6ad.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -DCHECK_FUNCTION_EXISTS=getpwent -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_fe6ad.dir/CheckFunctionExists.c.o -c /usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_fe6ad
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fe6ad.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -DCHECK_FUNCTION_EXISTS=getpwent -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_fe6ad.dir/CheckFunctionExists.c.o -o cmTC_fe6ad 
+
+
+
+Determining if the function getpwnam exists passed with the following output:
+Change Dir: /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8bc4e/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_8bc4e.dir/build.make CMakeFiles/cmTC_8bc4e.dir/build
+Building C object CMakeFiles/cmTC_8bc4e.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -DCHECK_FUNCTION_EXISTS=getpwnam -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_8bc4e.dir/CheckFunctionExists.c.o -c /usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8bc4e
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8bc4e.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -DCHECK_FUNCTION_EXISTS=getpwnam -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_8bc4e.dir/CheckFunctionExists.c.o -o cmTC_8bc4e 
+
+
+
+Determining if the function getpwuid exists passed with the following output:
+Change Dir: /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ae7a4/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_ae7a4.dir/build.make CMakeFiles/cmTC_ae7a4.dir/build
+Building C object CMakeFiles/cmTC_ae7a4.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -DCHECK_FUNCTION_EXISTS=getpwuid -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_ae7a4.dir/CheckFunctionExists.c.o -c /usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ae7a4
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae7a4.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -DCHECK_FUNCTION_EXISTS=getpwuid -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_ae7a4.dir/CheckFunctionExists.c.o -o cmTC_ae7a4 
+
+
+
+Determining if the function readv exists passed with the following output:
+Change Dir: /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9e592/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_9e592.dir/build.make CMakeFiles/cmTC_9e592.dir/build
+Building C object CMakeFiles/cmTC_9e592.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -DCHECK_FUNCTION_EXISTS=readv -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_9e592.dir/CheckFunctionExists.c.o -c /usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9e592
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9e592.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -DCHECK_FUNCTION_EXISTS=readv -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_9e592.dir/CheckFunctionExists.c.o -o cmTC_9e592 
+
+
+
+Determining if the function opendir exists passed with the following output:
+Change Dir: /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4a1dd/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_4a1dd.dir/build.make CMakeFiles/cmTC_4a1dd.dir/build
+Building C object CMakeFiles/cmTC_4a1dd.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -DCHECK_FUNCTION_EXISTS=opendir -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_4a1dd.dir/CheckFunctionExists.c.o -c /usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4a1dd
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a1dd.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -DCHECK_FUNCTION_EXISTS=opendir -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_4a1dd.dir/CheckFunctionExists.c.o -o cmTC_4a1dd 
+
+
+
+Determining if the function readlink exists passed with the following output:
+Change Dir: /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2e858/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_2e858.dir/build.make CMakeFiles/cmTC_2e858.dir/build
+Building C object CMakeFiles/cmTC_2e858.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -DCHECK_FUNCTION_EXISTS=readlink -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_2e858.dir/CheckFunctionExists.c.o -c /usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2e858
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e858.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -DCHECK_FUNCTION_EXISTS=readlink -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_2e858.dir/CheckFunctionExists.c.o -o cmTC_2e858 
+
+
+
+Determining if the function setpgid exists passed with the following output:
+Change Dir: /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c88f8/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_c88f8.dir/build.make CMakeFiles/cmTC_c88f8.dir/build
+Building C object CMakeFiles/cmTC_c88f8.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -DCHECK_FUNCTION_EXISTS=setpgid -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_c88f8.dir/CheckFunctionExists.c.o -c /usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c88f8
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c88f8.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -DCHECK_FUNCTION_EXISTS=setpgid -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_c88f8.dir/CheckFunctionExists.c.o -o cmTC_c88f8 
+
+
+
+Determining if the function setsid exists passed with the following output:
+Change Dir: /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_52767/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_52767.dir/build.make CMakeFiles/cmTC_52767.dir/build
+Building C object CMakeFiles/cmTC_52767.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -DCHECK_FUNCTION_EXISTS=setsid -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_52767.dir/CheckFunctionExists.c.o -c /usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_52767
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52767.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -DCHECK_FUNCTION_EXISTS=setsid -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_52767.dir/CheckFunctionExists.c.o -o cmTC_52767 
+
+
+
+Determining if the function sigaction exists passed with the following output:
+Change Dir: /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_02a23/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_02a23.dir/build.make CMakeFiles/cmTC_02a23.dir/build
+Building C object CMakeFiles/cmTC_02a23.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -DCHECK_FUNCTION_EXISTS=sigaction -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_02a23.dir/CheckFunctionExists.c.o -c /usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_02a23
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02a23.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -DCHECK_FUNCTION_EXISTS=sigaction -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_02a23.dir/CheckFunctionExists.c.o -o cmTC_02a23 
+
+
+
+Determining if the function strcasecmp exists passed with the following output:
+Change Dir: /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e7e7a/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_e7e7a.dir/build.make CMakeFiles/cmTC_e7e7a.dir/build
+Building C object CMakeFiles/cmTC_e7e7a.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -DCHECK_FUNCTION_EXISTS=strcasecmp -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_e7e7a.dir/CheckFunctionExists.c.o -c /usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strcasecmp' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strcasecmp
+                              ^
+/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'strcasecmp' is a builtin with type 'int (const char *, const char *)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strcasecmp
+                              ^
+1 warning generated.
+Linking C executable cmTC_e7e7a
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7e7a.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -DCHECK_FUNCTION_EXISTS=strcasecmp -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_e7e7a.dir/CheckFunctionExists.c.o -o cmTC_e7e7a 
+
+
+
+Determining if the function strncasecmp exists passed with the following output:
+Change Dir: /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_af6cd/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_af6cd.dir/build.make CMakeFiles/cmTC_af6cd.dir/build
+Building C object CMakeFiles/cmTC_af6cd.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -DCHECK_FUNCTION_EXISTS=strncasecmp -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_af6cd.dir/CheckFunctionExists.c.o -c /usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strncasecmp' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strncasecmp
+                              ^
+/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'strncasecmp' is a builtin with type 'int (const char *, const char *, unsigned long)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strncasecmp
+                              ^
+1 warning generated.
+Linking C executable cmTC_af6cd
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af6cd.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -DCHECK_FUNCTION_EXISTS=strncasecmp -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_af6cd.dir/CheckFunctionExists.c.o -o cmTC_af6cd 
+
+
+
+Determining if the function strptime exists passed with the following output:
+Change Dir: /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_13ac1/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_13ac1.dir/build.make CMakeFiles/cmTC_13ac1.dir/build
+Building C object CMakeFiles/cmTC_13ac1.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -DCHECK_FUNCTION_EXISTS=strptime -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_13ac1.dir/CheckFunctionExists.c.o -c /usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_13ac1
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_13ac1.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -DCHECK_FUNCTION_EXISTS=strptime -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_13ac1.dir/CheckFunctionExists.c.o -o cmTC_13ac1 
+
+
+
+Determining if the FD_CLOEXEC exist passed with the following output:
+Change Dir: /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2d186/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_2d186.dir/build.make CMakeFiles/cmTC_2d186.dir/build
+Building C object CMakeFiles/cmTC_2d186.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_2d186.dir/CheckSymbolExists.c.o -c /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_2d186
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2d186.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_2d186.dir/CheckSymbolExists.c.o -o cmTC_2d186 
+
+
+File /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef FD_CLOEXEC
+  return ((int*)(&FD_CLOEXEC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CODESET exist passed with the following output:
+Change Dir: /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2ae6a/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_2ae6a.dir/build.make CMakeFiles/cmTC_2ae6a.dir/build
+Building C object CMakeFiles/cmTC_2ae6a.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_2ae6a.dir/CheckSymbolExists.c.o -c /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_2ae6a
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ae6a.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_2ae6a.dir/CheckSymbolExists.c.o -o cmTC_2ae6a 
+
+
+File /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <langinfo.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CODESET
+  return ((int*)(&CODESET))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}

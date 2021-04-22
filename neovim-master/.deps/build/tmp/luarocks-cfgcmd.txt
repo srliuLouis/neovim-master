@@ -1,0 +1,1 @@
+cmd='/Users/shi-rongliu/tool/neovim-master/.deps/build/src/luarocks/configure;--prefix=/Users/shi-rongliu/tool/neovim-master/.deps/usr;--force-config;--with-lua=/Users/shi-rongliu/tool/neovim-master/.deps/usr;--with-lua-include=/Users/shi-rongliu/tool/neovim-master/.deps/usr/include/luajit-2.1;--with-lua-interpreter=luajit'

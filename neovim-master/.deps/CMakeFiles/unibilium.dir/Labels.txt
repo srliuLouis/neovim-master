@@ -1,0 +1,13 @@
+# Target labels
+ unibilium
+# Source files and their labels
+/Users/shi-rongliu/tool/neovim-master/.deps/CMakeFiles/unibilium
+/Users/shi-rongliu/tool/neovim-master/.deps/CMakeFiles/unibilium.rule
+/Users/shi-rongliu/tool/neovim-master/.deps/CMakeFiles/unibilium-complete.rule
+/Users/shi-rongliu/tool/neovim-master/.deps/build/src/unibilium-stamp/unibilium-install.rule
+/Users/shi-rongliu/tool/neovim-master/.deps/build/src/unibilium-stamp/unibilium-mkdir.rule
+/Users/shi-rongliu/tool/neovim-master/.deps/build/src/unibilium-stamp/unibilium-download.rule
+/Users/shi-rongliu/tool/neovim-master/.deps/build/src/unibilium-stamp/unibilium-update.rule
+/Users/shi-rongliu/tool/neovim-master/.deps/build/src/unibilium-stamp/unibilium-patch.rule
+/Users/shi-rongliu/tool/neovim-master/.deps/build/src/unibilium-stamp/unibilium-configure.rule
+/Users/shi-rongliu/tool/neovim-master/.deps/build/src/unibilium-stamp/unibilium-build.rule

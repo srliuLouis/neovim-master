@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/shi-rongliu/tool/neovim-master/.deps/build/src/treesitter-c/src/parser.c
+tree_sitter/parser.h
+-
+
+/Users/shi-rongliu/tool/neovim-master/.deps/build/src/treesitter-c/src/tree_sitter/parser.h
+stdbool.h
+-
+stdint.h
+-
+stdlib.h
+-
+

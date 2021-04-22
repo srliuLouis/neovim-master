@@ -1,0 +1,1 @@
+/Users/shi-rongliu/tool/neovim-master/.deps/usr/lib/nvim/parser/c.so

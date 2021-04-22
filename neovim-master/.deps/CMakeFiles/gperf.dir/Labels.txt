@@ -1,0 +1,13 @@
+# Target labels
+ gperf
+# Source files and their labels
+/Users/shi-rongliu/tool/neovim-master/.deps/CMakeFiles/gperf
+/Users/shi-rongliu/tool/neovim-master/.deps/CMakeFiles/gperf.rule
+/Users/shi-rongliu/tool/neovim-master/.deps/CMakeFiles/gperf-complete.rule
+/Users/shi-rongliu/tool/neovim-master/.deps/build/src/gperf-stamp/gperf-install.rule
+/Users/shi-rongliu/tool/neovim-master/.deps/build/src/gperf-stamp/gperf-mkdir.rule
+/Users/shi-rongliu/tool/neovim-master/.deps/build/src/gperf-stamp/gperf-download.rule
+/Users/shi-rongliu/tool/neovim-master/.deps/build/src/gperf-stamp/gperf-update.rule
+/Users/shi-rongliu/tool/neovim-master/.deps/build/src/gperf-stamp/gperf-patch.rule
+/Users/shi-rongliu/tool/neovim-master/.deps/build/src/gperf-stamp/gperf-configure.rule
+/Users/shi-rongliu/tool/neovim-master/.deps/build/src/gperf-stamp/gperf-build.rule

@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/shi-rongliu/tool/neovim-master/.deps/CMakeFiles/treesitter-c"
+		},
+		{
+			"file" : "/Users/shi-rongliu/tool/neovim-master/.deps/CMakeFiles/treesitter-c.rule"
+		},
+		{
+			"file" : "/Users/shi-rongliu/tool/neovim-master/.deps/CMakeFiles/treesitter-c-complete.rule"
+		},
+		{
+			"file" : "/Users/shi-rongliu/tool/neovim-master/.deps/build/src/treesitter-c-stamp/treesitter-c-install.rule"
+		},
+		{
+			"file" : "/Users/shi-rongliu/tool/neovim-master/.deps/build/src/treesitter-c-stamp/treesitter-c-mkdir.rule"
+		},
+		{
+			"file" : "/Users/shi-rongliu/tool/neovim-master/.deps/build/src/treesitter-c-stamp/treesitter-c-download.rule"
+		},
+		{
+			"file" : "/Users/shi-rongliu/tool/neovim-master/.deps/build/src/treesitter-c-stamp/treesitter-c-update.rule"
+		},
+		{
+			"file" : "/Users/shi-rongliu/tool/neovim-master/.deps/build/src/treesitter-c-stamp/treesitter-c-patch.rule"
+		},
+		{
+			"file" : "/Users/shi-rongliu/tool/neovim-master/.deps/build/src/treesitter-c-stamp/treesitter-c-configure.rule"
+		},
+		{
+			"file" : "/Users/shi-rongliu/tool/neovim-master/.deps/build/src/treesitter-c-stamp/treesitter-c-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"treesitter-c"
+		],
+		"name" : "treesitter-c"
+	}
+}

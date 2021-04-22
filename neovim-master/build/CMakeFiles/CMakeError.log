@@ -1,0 +1,281 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+ld: library not found for -lSystem
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Performing C SOURCE FILE Test HAS_ACCEPTABLE_FORTIFY failed with the following output:
+Change Dir: /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_96404/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_96404.dir/build.make CMakeFiles/cmTC_96404.dir/build
+Building C object CMakeFiles/cmTC_96404.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -DHAS_ACCEPTABLE_FORTIFY  -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_96404.dir/src.c.o -c /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp/src.c
+/Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp/src.c:5:2: error: "_FORTIFY_SOURCE > 1"
+#error "_FORTIFY_SOURCE > 1"
+ ^
+1 error generated.
+make[2]: *** [CMakeFiles/cmTC_96404.dir/src.c.o] Error 1
+make[1]: *** [cmTC_96404/fast] Error 2
+
+
+Source file was:
+
+#include <string.h>
+
+#if defined(_FORTIFY_SOURCE) && _FORTIFY_SOURCE > 1
+#error "_FORTIFY_SOURCE > 1"
+#endif
+int
+main(void)
+{
+  return 0;
+}
+
+Determining if the function kstat_lookup exists in the kstat failed with the following output:
+Change Dir: /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cd075/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_cd075.dir/build.make CMakeFiles/cmTC_cd075.dir/build
+Building C object CMakeFiles/cmTC_cd075.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -DCHECK_FUNCTION_EXISTS=kstat_lookup -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_cd075.dir/CheckFunctionExists.c.o -c /usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_cd075
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd075.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -DCHECK_FUNCTION_EXISTS=kstat_lookup -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_cd075.dir/CheckFunctionExists.c.o -o cmTC_cd075   -L/Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp/kstat.h  -Wl,-rpath,/Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp/kstat.h -lkstat 
+ld: warning: directory not found for option '-L/Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp/kstat.h'
+ld: library not found for -lkstat
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[2]: *** [cmTC_cd075] Error 1
+make[1]: *** [cmTC_cd075/fast] Error 2
+
+
+
+Determining if the function kvm_open exists in the kvm failed with the following output:
+Change Dir: /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f306e/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_f306e.dir/build.make CMakeFiles/cmTC_f306e.dir/build
+Building C object CMakeFiles/cmTC_f306e.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -DCHECK_FUNCTION_EXISTS=kvm_open -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_f306e.dir/CheckFunctionExists.c.o -c /usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f306e
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f306e.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -DCHECK_FUNCTION_EXISTS=kvm_open -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_f306e.dir/CheckFunctionExists.c.o -o cmTC_f306e   -L/Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp/kvm.h  -Wl,-rpath,/Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp/kvm.h -lkvm 
+ld: warning: directory not found for option '-L/Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp/kvm.h'
+ld: library not found for -lkvm
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[2]: *** [cmTC_f306e] Error 1
+make[1]: *** [cmTC_f306e/fast] Error 2
+
+
+
+Determining if the function gethostbyname exists in the nsl failed with the following output:
+Change Dir: /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_48cff/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_48cff.dir/build.make CMakeFiles/cmTC_48cff.dir/build
+Building C object CMakeFiles/cmTC_48cff.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -DCHECK_FUNCTION_EXISTS=gethostbyname -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_48cff.dir/CheckFunctionExists.c.o -c /usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_48cff
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48cff.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -DCHECK_FUNCTION_EXISTS=gethostbyname -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_48cff.dir/CheckFunctionExists.c.o -o cmTC_48cff   -L/Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp/nsl.h  -Wl,-rpath,/Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp/nsl.h -lnsl 
+ld: warning: directory not found for option '-L/Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp/nsl.h'
+ld: library not found for -lnsl
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[2]: *** [cmTC_48cff] Error 1
+make[1]: *** [cmTC_48cff/fast] Error 2
+
+
+
+Determining if the function perfstat_cpu exists in the perfstat failed with the following output:
+Change Dir: /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2f9b5/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_2f9b5.dir/build.make CMakeFiles/cmTC_2f9b5.dir/build
+Building C object CMakeFiles/cmTC_2f9b5.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -DCHECK_FUNCTION_EXISTS=perfstat_cpu -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_2f9b5.dir/CheckFunctionExists.c.o -c /usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2f9b5
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2f9b5.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -DCHECK_FUNCTION_EXISTS=perfstat_cpu -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_2f9b5.dir/CheckFunctionExists.c.o -o cmTC_2f9b5   -L/Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp/libperfstat.h  -Wl,-rpath,/Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp/libperfstat.h -lperfstat 
+ld: warning: directory not found for option '-L/Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp/libperfstat.h'
+ld: library not found for -lperfstat
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[2]: *** [cmTC_2f9b5] Error 1
+make[1]: *** [cmTC_2f9b5/fast] Error 2
+
+
+
+Determining if the function clock_gettime exists in the rt failed with the following output:
+Change Dir: /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_64ca9/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_64ca9.dir/build.make CMakeFiles/cmTC_64ca9.dir/build
+Building C object CMakeFiles/cmTC_64ca9.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -DCHECK_FUNCTION_EXISTS=clock_gettime -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_64ca9.dir/CheckFunctionExists.c.o -c /usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_64ca9
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64ca9.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -DCHECK_FUNCTION_EXISTS=clock_gettime -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_64ca9.dir/CheckFunctionExists.c.o -o cmTC_64ca9   -L/Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp/time.h  -Wl,-rpath,/Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp/time.h -lrt 
+ld: warning: directory not found for option '-L/Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp/time.h'
+ld: library not found for -lrt
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[2]: *** [cmTC_64ca9] Error 1
+make[1]: *** [cmTC_64ca9/fast] Error 2
+
+
+
+Determining if the function sendfile exists in the sendfile failed with the following output:
+Change Dir: /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_70c20/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_70c20.dir/build.make CMakeFiles/cmTC_70c20.dir/build
+Building C object CMakeFiles/cmTC_70c20.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -DCHECK_FUNCTION_EXISTS=sendfile -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_70c20.dir/CheckFunctionExists.c.o -c /usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_70c20
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70c20.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -DCHECK_FUNCTION_EXISTS=sendfile -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_70c20.dir/CheckFunctionExists.c.o -o cmTC_70c20  -lsendfile 
+ld: library not found for -lsendfile
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[2]: *** [cmTC_70c20] Error 1
+make[1]: *** [cmTC_70c20/fast] Error 2
+
+
+
+Determining if the variable _nl_msg_cat_cntr exists failed with the following output:
+Change Dir: /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_45b5d/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_45b5d.dir/build.make CMakeFiles/cmTC_45b5d.dir/build
+Building C object CMakeFiles/cmTC_45b5d.dir/CheckVariableExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -DCHECK_VARIABLE_EXISTS=_nl_msg_cat_cntr -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_45b5d.dir/CheckVariableExists.c.o -c /usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CheckVariableExists.c
+Linking C executable cmTC_45b5d
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_45b5d.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -DCHECK_VARIABLE_EXISTS=_nl_msg_cat_cntr -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_45b5d.dir/CheckVariableExists.c.o -o cmTC_45b5d 
+Undefined symbols for architecture x86_64:
+  "__nl_msg_cat_cntr", referenced from:
+      _main in CheckVariableExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[2]: *** [cmTC_45b5d] Error 1
+make[1]: *** [cmTC_45b5d/fast] Error 2
+
+
+
+Determining if files endian.h exist failed with the following output:
+Change Dir: /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_502e4/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_502e4.dir/build.make CMakeFiles/cmTC_502e4.dir/build
+Building C object CMakeFiles/cmTC_502e4.dir/HAVE_ENDIAN_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_502e4.dir/HAVE_ENDIAN_H.c.o -c /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CheckIncludeFiles/HAVE_ENDIAN_H.c
+/Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CheckIncludeFiles/HAVE_ENDIAN_H.c:2:10: fatal error: 'endian.h' file not found
+#include <endian.h>
+         ^~~~~~~~~~
+1 error generated.
+make[2]: *** [CMakeFiles/cmTC_502e4.dir/HAVE_ENDIAN_H.c.o] Error 1
+make[1]: *** [cmTC_502e4/fast] Error 2
+
+
+Source:
+/* */
+#include <endian.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/endian.h exist failed with the following output:
+Change Dir: /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2bb05/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_2bb05.dir/build.make CMakeFiles/cmTC_2bb05.dir/build
+Building C object CMakeFiles/cmTC_2bb05.dir/HAVE_SYS_ENDIAN_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_2bb05.dir/HAVE_SYS_ENDIAN_H.c.o -c /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_ENDIAN_H.c
+/Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_ENDIAN_H.c:2:10: fatal error: 'sys/endian.h' file not found
+#include <sys/endian.h>
+         ^~~~~~~~~~~~~~
+1 error generated.
+make[2]: *** [CMakeFiles/cmTC_2bb05.dir/HAVE_SYS_ENDIAN_H.c.o] Error 1
+make[1]: *** [cmTC_2bb05/fast] Error 2
+
+
+Source:
+/* */
+#include <sys/endian.h>
+
+
+int main(void){return 0;}
+
+Performing C SOURCE FILE Test HAVE_BE64TOH_MACROS failed with the following output:
+Change Dir: /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_83bf9/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_83bf9.dir/build.make CMakeFiles/cmTC_83bf9.dir/build
+Building C object CMakeFiles/cmTC_83bf9.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -DHAVE_BE64TOH_MACROS  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_83bf9.dir/src.c.o -c /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp/src.c
+/Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp/src.c:6:12: fatal error: 'endian.h' file not found
+  #include <endian.h>
+           ^~~~~~~~~~
+1 error generated.
+make[2]: *** [CMakeFiles/cmTC_83bf9.dir/src.c.o] Error 1
+make[1]: *** [cmTC_83bf9/fast] Error 2
+
+
+Source file was:
+
+  #define _BSD_SOURCE 1
+  #define _DEFAULT_SOURCE 1
+  #include <stdint.h>
+
+  #include <endian.h>
+  #ifndef be64toh
+  # error No be64toh macros
+  #endif
+  int main(int argc,char**argv)
+{
+  uint64_t i=0x0102030405060708ULL;
+    uint64_t j = be64toh(i);
+    return (j == 0);  // j must not be zero
+  }
+Determining if the function be64toh exists failed with the following output:
+Change Dir: /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2a1d6/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_2a1d6.dir/build.make CMakeFiles/cmTC_2a1d6.dir/build
+Building C object CMakeFiles/cmTC_2a1d6.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -DCHECK_FUNCTION_EXISTS=be64toh -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_2a1d6.dir/CheckFunctionExists.c.o -c /usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2a1d6
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a1d6.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -DCHECK_FUNCTION_EXISTS=be64toh -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_2a1d6.dir/CheckFunctionExists.c.o -o cmTC_2a1d6 
+Undefined symbols for architecture x86_64:
+  "_be64toh", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[2]: *** [cmTC_2a1d6] Error 1
+make[1]: *** [cmTC_2a1d6/fast] Error 2
+
+
+
+Performing C SOURCE FILE Test ORDER_BIG_ENDIAN failed with the following compile output:
+Change Dir: /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_080b6/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_080b6.dir/build.make CMakeFiles/cmTC_080b6.dir/build
+Building C object CMakeFiles/cmTC_080b6.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -DORDER_BIG_ENDIAN  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_080b6.dir/src.c.o -c /Users/shi-rongliu/tool/neovim-master/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_080b6
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_080b6.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_080b6.dir/src.c.o -o cmTC_080b6 
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+
+      #include <stdint.h>
+
+      int main(int argc,char**argv)
+{
+  uint64_t i=0x0102030405060708ULL;
+        char *s = (char *) &i;
+        return (
+          s[0] == 0x01
+          && s[1] == 0x02
+          && s[2] == 0x03
+          && s[3] == 0x04
+          && s[4] == 0x05
+          && s[5] == 0x06
+          && s[6] == 0x07
+          && s[7] == 0x08) ? 0 : 1;
+      }

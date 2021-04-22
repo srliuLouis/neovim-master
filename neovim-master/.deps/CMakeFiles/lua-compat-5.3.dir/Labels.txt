@@ -1,0 +1,13 @@
+# Target labels
+ lua-compat-5.3
+# Source files and their labels
+/Users/shi-rongliu/tool/neovim-master/.deps/CMakeFiles/lua-compat-5.3
+/Users/shi-rongliu/tool/neovim-master/.deps/CMakeFiles/lua-compat-5.3.rule
+/Users/shi-rongliu/tool/neovim-master/.deps/CMakeFiles/lua-compat-5.3-complete.rule
+/Users/shi-rongliu/tool/neovim-master/.deps/build/src/lua-compat-5.3-stamp/lua-compat-5.3-install.rule
+/Users/shi-rongliu/tool/neovim-master/.deps/build/src/lua-compat-5.3-stamp/lua-compat-5.3-mkdir.rule
+/Users/shi-rongliu/tool/neovim-master/.deps/build/src/lua-compat-5.3-stamp/lua-compat-5.3-download.rule
+/Users/shi-rongliu/tool/neovim-master/.deps/build/src/lua-compat-5.3-stamp/lua-compat-5.3-update.rule
+/Users/shi-rongliu/tool/neovim-master/.deps/build/src/lua-compat-5.3-stamp/lua-compat-5.3-patch.rule
+/Users/shi-rongliu/tool/neovim-master/.deps/build/src/lua-compat-5.3-stamp/lua-compat-5.3-configure.rule
+/Users/shi-rongliu/tool/neovim-master/.deps/build/src/lua-compat-5.3-stamp/lua-compat-5.3-build.rule

@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/shi-rongliu/tool/neovim-master/.deps/CMakeFiles/lua-compat-5.3"
+		},
+		{
+			"file" : "/Users/shi-rongliu/tool/neovim-master/.deps/CMakeFiles/lua-compat-5.3.rule"
+		},
+		{
+			"file" : "/Users/shi-rongliu/tool/neovim-master/.deps/CMakeFiles/lua-compat-5.3-complete.rule"
+		},
+		{
+			"file" : "/Users/shi-rongliu/tool/neovim-master/.deps/build/src/lua-compat-5.3-stamp/lua-compat-5.3-install.rule"
+		},
+		{
+			"file" : "/Users/shi-rongliu/tool/neovim-master/.deps/build/src/lua-compat-5.3-stamp/lua-compat-5.3-mkdir.rule"
+		},
+		{
+			"file" : "/Users/shi-rongliu/tool/neovim-master/.deps/build/src/lua-compat-5.3-stamp/lua-compat-5.3-download.rule"
+		},
+		{
+			"file" : "/Users/shi-rongliu/tool/neovim-master/.deps/build/src/lua-compat-5.3-stamp/lua-compat-5.3-update.rule"
+		},
+		{
+			"file" : "/Users/shi-rongliu/tool/neovim-master/.deps/build/src/lua-compat-5.3-stamp/lua-compat-5.3-patch.rule"
+		},
+		{
+			"file" : "/Users/shi-rongliu/tool/neovim-master/.deps/build/src/lua-compat-5.3-stamp/lua-compat-5.3-configure.rule"
+		},
+		{
+			"file" : "/Users/shi-rongliu/tool/neovim-master/.deps/build/src/lua-compat-5.3-stamp/lua-compat-5.3-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"lua-compat-5.3"
+		],
+		"name" : "lua-compat-5.3"
+	}
+}

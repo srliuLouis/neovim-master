@@ -1,0 +1,8 @@
+libdir=/Users/shi-rongliu/tool/neovim-master/.deps/usr/lib
+includedir=/Users/shi-rongliu/tool/neovim-master/.deps/usr/include
+
+Name: termkey
+Description: Abstract terminal key input library
+Version: 0.22
+Libs: -L${libdir} -ltermkey
+Cflags: -I${includedir}

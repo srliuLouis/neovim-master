@@ -1,0 +1,13 @@
+# Target labels
+ libtermkey
+# Source files and their labels
+/Users/shi-rongliu/tool/neovim-master/.deps/CMakeFiles/libtermkey
+/Users/shi-rongliu/tool/neovim-master/.deps/CMakeFiles/libtermkey.rule
+/Users/shi-rongliu/tool/neovim-master/.deps/CMakeFiles/libtermkey-complete.rule
+/Users/shi-rongliu/tool/neovim-master/.deps/build/src/libtermkey-stamp/libtermkey-install.rule
+/Users/shi-rongliu/tool/neovim-master/.deps/build/src/libtermkey-stamp/libtermkey-mkdir.rule
+/Users/shi-rongliu/tool/neovim-master/.deps/build/src/libtermkey-stamp/libtermkey-download.rule
+/Users/shi-rongliu/tool/neovim-master/.deps/build/src/libtermkey-stamp/libtermkey-update.rule
+/Users/shi-rongliu/tool/neovim-master/.deps/build/src/libtermkey-stamp/libtermkey-patch.rule
+/Users/shi-rongliu/tool/neovim-master/.deps/build/src/libtermkey-stamp/libtermkey-configure.rule
+/Users/shi-rongliu/tool/neovim-master/.deps/build/src/libtermkey-stamp/libtermkey-build.rule
